@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(18, 18, 18);
+  font-family: monospace;
+  font-size: 30px;
+}
+
+input {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 25px;
+}
+
+button {
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 20px;
+  border-radius: 6px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.App {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.todo__add {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__add button{
+  color: gold;
+}
+
+.todo__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo {
+  background-color: white;
+  border-radius: 20px;
+  padding: 2px 10px;
+}
+
+.todo li{
+  list-style: none;
+  word-break: break-all;
+  color: black;
+}
+
+.todo__btns {
+  display: flex;
+  gap: 10px;
+}
+.complete {
+  color: green;
+}
+
+.remove {
+  color: rgb(184, 1, 1);
+}
